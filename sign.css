@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.signin{
+    width: 70%;
+    height: 90vh;
+  
+     margin: auto;
+}
+
+.signinsub{
+    width: 50%;
+    height: 90vh;
+   margin: auto;
+    margin-top: 50px;
+    background-color: black;
+    text-align: center;
+    
+    
+}
+.signinsub h3{
+    color:rgb(136, 0, 255);
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+   
+
+
+}
+.signinsub form {
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    padding: 40px;
+    overflow: scroll;
+    background-color: rgb(136, 0, 255);
+    box-shadow: 0 0 10px rgba(126, 125, 129, 0.71);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+form input{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    margin-top: 40px;
+    font-size: 15px;
+    border: 1px solid rgb(105, 214, 21);
+    outline: 0;
+    border-radius: 8px;
+    padding-left: 35px;
+   
+    color:gray;
+  
+   
+}
+#file{
+
+ padding-bottom: 35px;
+}
+::-webkit-file-upload-button{
+    background-color: rgb(110, 19, 246);
+    border: 0;
+    border-radius: 4px;
+    margin-top: 3px;
+    padding: 3px;
+    color: white;
+}
+
+form select{
+    width: 140px;
+   padding: 12px;
+    
+    
+    text-align: center;
+    
+    
+    color: gray;
+    border-radius: 8px;
+    
+   
+   
+    
+    
+    
+}
+#date{
+    padding: 19px;
+}
+#submit{
+    width: 160px;
+   padding: 10px;
+   margin: auto;
+    margin-top: 20px;
+    background-color: aquamarine;
+    
+    color: black;
+    text-align: center;
+
+}

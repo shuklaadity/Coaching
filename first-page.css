@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* first page styling */
+
+
+ .first-page{
+    width: 100%;
+    height: 100vh;
+
+ }
+
+ /* nav  page styling */
+ nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ nav .nav-left{
+    width: 20%;
+   
+   
+
+ }
+
+ nav .nav-left p{
+    font-size: 40px;
+    margin-top: 30px;
+    font-weight:900;
+    color: blueviolet;;
+   
+    
+ }
+
+
+ /* nav  page styling */
+ nav .nav-right{
+    width: 20%;
+   
+    
+   
+
+ }
+ .nav-right .getstart{
+    background-color: blueviolet;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 30px;
+    padding-top: 5px;
+    border-radius: 20px;
+ }
+ .nav-right .getstart:hover{
+    background-color: rgb(51, 43, 59);
+ }
+
+.nav-right a{
+  
+    
+    font-size: 20px;
+    text-decoration: none;
+    
+    color: white;
+   
+ }
+ .first-sub-info{
+    width: 80%;
+    height:250px;
+    
+    margin: auto;
+    margin-top: 80px;
+    color: white;
+    padding-top: 50px;
+    font-weight: 900;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 10px;
+ }
+ .first-sub-info button{
+    width: 110px;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    
+   
+ }
+ 
+
+ 
+
+ /* Sign and login page styling */
+
+ .first-page-sub{
+    width: 100%;
+   
+     margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .first-page-sub a{
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    
+    color: white;
+    background-color: blueviolet;
+ }
+ .first-page-sub a:hover {
+    background-color: rgb(51, 43, 59);
+ }
+
+
+
+
