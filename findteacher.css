@@ -12,7 +12,7 @@
     height: 100px;
     display: flex;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 70px;
     
 }
 
@@ -62,15 +62,132 @@
 
 }
 
-.teacher-con1{
-    width: 80%;
-    height: 100vh;
-    border: 1px solid black;
-}
 
 .teacher-con2{
-    width: 16%;
+    width: 10%;
     height: 100vh;
     margin: auto;
-    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 40px;
+}
+
+.teacher-con2 select{
+     
+    width: 150px;
+    height:40px;
+    margin-top: 40px;
+    border: 2px solid purple;
+}
+::-webkit-keygen-select{
+    color: red;
+}
+
+
+
+/* teacher profile */
+.teacher-con1{
+    width: 90%;
+    height: 100vh;
+    
+}
+
+
+.teach-pro{
+    width: 85%;
+    height: 350px;
+    margin: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    
+    box-shadow: 0 0 10px rgba(0, 0,0,0.10);
+    margin-top: 30px;
+   
+}
+
+.teach-pro .teach-img{
+    width: 100px;
+}
+
+.teach-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+.teach-info{
+    width: 80%;
+      margin-top: 60px;
+    margin-left: 100px;
+}
+.teach-info p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: rgb(88, 83, 83);
+}
+.teach-info-1 .name{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.teach-info-1 .name-star{
+    margin-right: 30px;
+    margin-top: -80px;
+}
+.teach-info-1 .name-star i{
+  font-size: 30px;
+  color: yellow;
+
+}
+
+.teach-info-1-1{
+    width: 100%;
+    
+    margin-top: 30px;
+}
+
+.teach-info-1-1 p{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    word-spacing: 6px;
+    
+}
+.teach-info-1-1 .subject{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+}
+.teach-info-1-1 .subject p{
+    width: 23%;
+    background-color:rgba(34, 110, 137, 0.151);
+    text-align: center;
+    border-radius: 25px;
+    padding: 3px;
+    color: black;
+}
+.teach-info-1-1 .subject p:hover{
+
+    background-color:rgba(129, 65, 193, 0.178) ;
+    
+}
+
+#view-pro{
+    
+    width: 100%;
+    margin-left: 600px;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color:rgb(120, 109, 109);
 }

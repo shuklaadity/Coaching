@@ -9,6 +9,10 @@
     position: sticky;
     top: 0%;
 }
+.navbar a{
+    text-decoration: none;
+    color: blueviolet;
+}
 
 .loginpage {
     width: 100%;
@@ -30,7 +34,7 @@
 }
 
 .loginsub p {
-    color: rgba(75, 31, 208, 0.77);
+    color:blueviolet;
     margin-top: 50px;
     font-size: 40px;
     font-family: 'Belanosima', sans-serif;
@@ -54,14 +58,16 @@ button {
     border-radius: 6px;
     border: 0;
     outline: 0;
-    background-color: rgba(75, 31, 208, 0.77);
-    transition: 0.5s linear;
+    color: white;
+    background-color: blueviolet;
+    
     font-family: 'Belanosima', sans-serif ;
 
 }
 
 button:hover {
-    background-color: rgba(190, 18, 199, 0.909);
+    color: white;
+    background-color: rgb(37, 36, 37);
 
 
 }
