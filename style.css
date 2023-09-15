@@ -29,7 +29,7 @@
 }
 .navlist{
     width: 100%;
-   
+    margin-top: 30px;
     height: 70px;
     background-color: white;
     justify-content: space-between;
@@ -54,8 +54,6 @@
 }
 .navd li{
     list-style: none;
-   
-
 }
 .navd li a{
     text-decoration: none;

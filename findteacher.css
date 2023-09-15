@@ -8,7 +8,7 @@
 /* serch bar styling*/
 
 .serch-con{
-    width: 50%;
+    width: 60%;
     height: 100px;
     display: flex;
     margin: auto;
@@ -19,6 +19,7 @@
 .serch-con .sub-serch {
   width: 90%;
   height: 45px;
+  margin: auto;
   display: flex;
   align-items: center;
   border-radius: 15px;
@@ -54,32 +55,29 @@
 
 /* teachte container styling*/
 
-.teacher-con{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
 
-}
 
 
 .teacher-con2{
-    width: 10%;
-    height: 100vh;
+    width: 100%;
+    height: 50px;
     margin: auto;
-    
+  
     display: flex;
-    flex-direction: column;
-    position: fixed;
-    right: 40px;
+    align-items: center;
+    justify-content: space-around;
+    
+    
 }
 
 .teacher-con2 select{
      
-    width: 150px;
-    height:40px;
-    margin-top: 40px;
-    border: 2px solid purple;
+    width: 130px;
+    height:30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+    border:1.5px solid blueviolet;
 }
 ::-webkit-keygen-select{
     color: red;
@@ -125,6 +123,7 @@
       margin-top: 60px;
     margin-left: 100px;
 }
+
 .teach-info p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
@@ -136,6 +135,10 @@
     align-items: center;
     justify-content: space-between;
     
+}
+.teach-info-1 .name .name-1 h1{
+         
+          font-size: 35px;
 }
 .teach-info-1 .name-star{
     margin-right: 30px;
@@ -191,3 +194,36 @@
     text-decoration: none;
     color:rgb(120, 109, 109);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  #myTable {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left;
+    padding: 12px;
+    font-size: 0px;
+   
+  }
+  
+  #myTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  
