@@ -34,6 +34,7 @@
     padding-left: 30px;
     border: 0;
     outline: 0;
+    font-family: 'Belanosima', sans-serif;
 }
 .search-icon{
        height: 46px;
@@ -78,6 +79,7 @@
     text-align: center;
     font-size: 17px;
     border:1.5px solid blueviolet;
+    font-family: 'Belanosima', sans-serif;
 }
 ::-webkit-keygen-select{
     color: red;
@@ -125,7 +127,7 @@
 }
 
 .teach-info p{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Belanosima', sans-serif;
     font-size: 15px;
     color: rgb(88, 83, 83);
 }
@@ -139,6 +141,7 @@
 .teach-info-1 .name .name-1 h1{
          
           font-size: 35px;
+          font-family: 'Belanosima', sans-serif;
 }
 .teach-info-1 .name-star{
     margin-right: 30px;
@@ -158,7 +161,7 @@
 
 .teach-info-1-1 p{
     font-size: 17px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Belanosima', sans-serif;
     font-weight: 200;
     word-spacing: 6px;
     
@@ -178,6 +181,7 @@
     border-radius: 25px;
     padding: 3px;
     color: black;
+    font-family: 'Belanosima', sans-serif;
 }
 .teach-info-1-1 .subject p:hover{
 
