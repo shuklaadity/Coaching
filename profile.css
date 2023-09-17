@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+.teach-pro{
+    width: 85%;
+    height: 250px;
+    margin: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0,0,0.10);
+    margin-top: 30px;
+   
+}
+
+.teach-pro .teach-img{
+    width: 100px;
+}
+
+.teach-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+.teach-info{
+    width: 80%;
+      margin-top: 60px;
+    margin-left: 100px;
+}
+.teach-info h1{
+    font-size: 50px;
+}
+
+.teach-info p{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 20px;
+    
+}
+
+
+.teach-info-1 .name-star{
+    margin-right: 30px;
+    margin-top: -80px;
+}
+.name-star i{
+  font-size: 25px;
+  margin-left: 10px;
+  color: yellow;
+  margin-top: 10px;
+
+}
+
+.teach-info-1-1{
+    width: 100%;
+    
+    margin-top: 30px;
+}
+
+.teach-info-1-1 p{
+    font-size: 17px;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 200;
+    word-spacing: 6px;
+    
+}
+.teach-info-1-1 .subject{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+}
+.teach-info-1-1 .subject p{
+    width: 23%;
+    background-color:rgba(34, 110, 137, 0.151);
+    text-align: center;
+    border-radius: 25px;
+    padding: 3px;
+    color: black;
+    font-family: 'Belanosima', sans-serif;
+}
+.teach-info-1-1 .subject p:hover{
+
+    background-color:rgba(129, 65, 193, 0.178) ;
+    
+}
+
+#view-pro{
+    
+    width: 100%;
+    margin-left: 600px;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color:rgb(120, 109, 109);
+}

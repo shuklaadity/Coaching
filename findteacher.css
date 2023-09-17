@@ -229,5 +229,10 @@
   #myTable tr {
     border-bottom: 1px solid #ddd;
   }
+  .tr{
+    width: 100%;
+    height: 100px;
+   
+  }
   
   
